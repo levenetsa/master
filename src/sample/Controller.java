@@ -31,7 +31,7 @@ public class Controller {
         frame.setVisible(true);
         JButton btn = new JButton("Go");
         btn.setSize(80,40);
-        btn.setLocation(260, 300);
+        btn.setLocation(0, 0);
         btn.setAction(action);
         frame.add(btn);
     }
