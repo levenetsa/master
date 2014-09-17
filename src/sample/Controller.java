@@ -32,14 +32,11 @@ public class Controller {
         JButton btn = new JButton("Go");
         btn.setSize(80,40);
         btn.setLocation(260, 300);
-     //   btn.setAction(action);
+        btn.setAction(action);
         frame.add(btn);
     }
-   // public static Action actio
-    private static Action button() {
-        System.out.println("lol");
-        return null;
-    }
+
+    public static Action action = new ActionX();
 
     public static void main(String[] args) throws IOException {
        /* File file = new File("E:/input.txt");
